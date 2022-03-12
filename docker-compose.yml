@@ -34,6 +34,9 @@ services:
       ServerIP: 192.168.8.2
       TZ: Australia/Sydney
       VIRTUAL_HOST: pihole.home.lan
+    dns:
+      - 127.0.0.1
+      - 1.1.1.1
     volumes:
       - ./data/etc-pihole/:/etc/pihole/
       - ./data/etc-dnsmasq.d/:/etc/dnsmasq.d/
