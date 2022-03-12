@@ -1,6 +1,6 @@
-# piehole-home
+# pihole-home
 
-This repository contains the home network setup for piehole and DHCP.
+This repository contains the home network setup for pihole and DHCP.
 
 ## Setup
 
