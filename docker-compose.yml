@@ -32,12 +32,12 @@ services:
       DHCP_START: 192.168.8.10
       DHCP_END: 192.168.8.100
       DHCP_ROUTER: 192.168.8.1
-      DNSMASQ_LISTENING: single
-      INTERFACE: eth0
+      DNSMASQ_LISTENING: all
       PIHOLE_DOMAIN: home.lan
       PIHOLE_DNS_: 1.1.1.1, 8.8.8.8
       ServerIP: 192.168.8.2
       TZ: Australia/Sydney
+      VIRTUAL_HOST: pihole.home.lan
     dns:
       - 127.0.0.1
       - 1.1.1.1
