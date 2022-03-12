@@ -38,8 +38,7 @@ services:
       - 127.0.0.1
       - 1.1.1.1
     volumes:
-      - ./data/etc-pihole/:/etc/pihole/
-      - ./data/etc-dnsmasq.d/:/etc/dnsmasq.d/
+      - ./data/dnsmasq.d/:/etc/dnsmasq.d/
     cap_add:
       - NET_ADMIN
     depends_on:
