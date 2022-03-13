@@ -24,7 +24,7 @@ services:
       - 53:53/udp
     environment:
       PIHOLE_DOMAIN: home.lan
-      PIHOLE_DNS_: 1.1.1.1, 8.8.8.8
+      PIHOLE_DNS_: 1.1.1.1;8.8.8.8
       ServerIP: 192.168.8.2
       TZ: Australia/Sydney
       VIRTUAL_HOST: pihole.home.lan
